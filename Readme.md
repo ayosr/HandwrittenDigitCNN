@@ -43,5 +43,12 @@ python train_model.py
 streamlit run app.py
 
 ## Screenshot(s)
-<img width="1436" height="748" alt="image" src="https://github.com/user-attachments/assets/0b81dfa6-9391-49ef-a797-463f4b446296" />
+<img width="1436" height="748" alt="image" src="https://github.com/user-attachments/assets/86b1872e-91b0-4d0d-81f8-cefb4e21982b" />
+<img width="913" height="574" alt="image" src="https://github.com/user-attachments/assets/659225c3-e0e9-4c0a-b0f6-3e77e4a04f02" />
+
+
+
+
+
+
 
