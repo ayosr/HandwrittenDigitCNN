@@ -41,3 +41,7 @@ python train_model.py
 ### 3. Run the GUI
 
 streamlit run app.py
+
+## Screenshot(s)
+<img width="1436" height="748" alt="image" src="https://github.com/user-attachments/assets/0b81dfa6-9391-49ef-a797-463f4b446296" />
+
