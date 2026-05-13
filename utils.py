@@ -1,4 +1,4 @@
-from PIL import Image, ImageOps
+from PIL import Image, ImageOps, ImageEnhance
 import numpy as np
 import torch
 
@@ -6,6 +6,11 @@ import torch
 def preprocess_uploaded_image(image: Image.Image) -> torch.Tensor:
     # Convert to grayscale
     image = image.convert("L")
+
+    enhancer = ImageEnhance.Contrast(image)
+
+    # Increase contrast (e.g., factor of 2 for high contrast)
+    image = enhancer.enhance(7)
 
     # Resize to MNIST size
     image = image.resize((28, 28))

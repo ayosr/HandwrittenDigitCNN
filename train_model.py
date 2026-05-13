@@ -5,6 +5,7 @@ import torch.optim as optim
 from torch.utils.data import DataLoader, random_split
 from torchvision import datasets, transforms
 from model import DigitCNN
+import matplotlib.pyplot as plt
 
 
 def evaluate(model, loader, criterion, device):
@@ -49,6 +50,9 @@ def main():
         download=True,
         transform=transform
     )
+
+
+
 
     train_size = 54000
     val_size = 6000
