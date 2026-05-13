@@ -10,7 +10,7 @@ def preprocess_uploaded_image(image: Image.Image) -> torch.Tensor:
     enhancer = ImageEnhance.Contrast(image)
 
     # Increase contrast (e.g., factor of 2 for high contrast)
-    image = enhancer.enhance(7)
+    image = enhancer.enhance(6.5)
 
     # Resize to MNIST size
     image = image.resize((28, 28))
